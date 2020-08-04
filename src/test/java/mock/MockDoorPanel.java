@@ -3,8 +3,7 @@ package mock;
 public class MockDoorPanel extends DoorPanel{
     String closeStr = "";
     @Override
-    void close() {
-//        super.close();
+    public void close() {
         this.closeStr = "MockDoorPanel is closed!";
     }
 }
